@@ -54,6 +54,18 @@ The function gives three out put
 ![Average frequency plot](SequenceSample_average_freq.png)
 
 
+## remove first few nucleotides or amino acids
+
+This function allows to remove first n nucleotides in given nucleic acid or protein multi-fasta file
+
+### Run this function as:
+
+
+```r
+source("remove_first_n_nucleotides.R")
+multifasta_file  <-  "SequenceSample.fa"
+remove_first_n_nucleotides(multifasta_file,remove_first_n = 1,outfile = "sample")
+```
 
 
 
